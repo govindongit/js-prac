@@ -1,0 +1,1 @@
+JavaScript numbers are always stored in double-precision 64-bit binary format IEEE 754.
