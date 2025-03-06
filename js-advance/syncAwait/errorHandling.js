@@ -2,7 +2,7 @@
 // JavaScript provides predefined arguments for handling promises: resolve and reject.
 
 // resolve: Used when an asynchronous task is completed successfully.
-// reject: Used when an asynchronous task fails, providing the reason for failure.
+// reject: Used when an asynchronous task fails, providing the reason for failure..
 
 async function fetchData() {
     try{
