@@ -3,4 +3,4 @@
 function reverseString(str){
     return str.split("").reverse("").join("");
 }
-console.log(reverseString("Govind"));
+console.log(reverseString("GovindNagvanshi"));
