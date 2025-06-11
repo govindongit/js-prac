@@ -2,23 +2,24 @@
 
 // Using the For loop
 
-// function largestNumber(arr){
-//     let largest = arr[0];
-//     for (let i = 0 ; i < arr.lenght ; i++){
-//         if (arr[i] > largest){
-//             largest = arr[i];
-//         }
-//     }
-//     return largest;
-// }
-
-// console.log(largestNumber([20, 30, 17, 1]));
+function largest(arr){
+    //Suppose first element is the largest
+    let large = arr[0];
+    for (let i = 1; i < arr.length; i++){
+        if (arr[i] > large){
+            // Update the larget if a bigger element is found
+            large = arr[i];
+        }
+    }
+    return large;
+}
+console.log(largest([111, 232, 76, 89]));
 
 
 
 // Using the spread operator (...) or Math.max
 
-function findLargest(arr2){
-    return Math.max(...arr2);
+function findLargest(arr){
+    return Math.max(...arr);
 }
-console.log(findLargest[99, 5, 3, 100, 23]);
+console.log(findLargest([99, 5, 3, 100, 23]));
